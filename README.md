@@ -1,12 +1,12 @@
 # whatsapp-meteor
 
-## Crie um novo projeto
+## Crie um novo projeto:
 
 > $ meteor create whatsapp
 
 > $ cd whatsapp
   
-## Seu aplicativo agora contém um exemplo ao vivo e pronto. Para executar o nosso aplicativo basta digitar o seguinte na linha de comando
+## Seu aplicativo agora contém um exemplo ao vivo e pronto. Para executar o nosso aplicativo basta digitar o seguinte na linha de comando:
   
   > $ meteor
   
