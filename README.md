@@ -44,6 +44,21 @@ ou caso queira <b>Android</b>
 
 > $ meteor npm install babel-runtime --save
 
+Se você for um usuário do iOS, poderá encontrar alguns problemas relacionados ao toque duplo não sendo enviado corretamente. Isso é causado devido a um pacote incluído automaticamente pelo <b>Meteor</b> e é chamado de <b>mobile-experience</b> para que possamos ter um sentimento mais nativo para o nosso aplicativo, uma vez executado em um dispositivo móvel, que nem sempre é direito em toda a placa. Este pacote é simplesmente um cluster dos seguintes pacotes:
+
+* **Fastclick** - Evite o atraso de toque de 300ms.
+* **Mobile-status-bar** - Evite as informações da barra de status que cobrem o conteúdo do seu aplicativo.
+* **Tela de lançamento** - Cubra o aplicativo com uma imagem de lançamento para que as pessoas não tenham que ver as coisas carregando.
+
+Você já pode descobrir que o fastclick é uma base potencial para o nosso problema. Assim, vamos instalar os mesmos pacotes de experiência móvel nos fornece, com a exceção de fastclick:
+
+> meteor add mobile-status-bar
+
+> meteor add launch-screen
+
+E, finalmente, vamos instalar angular-meteor, de que este tutorial é toda sobre:
+
+> meteor npm install angular-meteor --save
 
 #### CONTINUA....
   
