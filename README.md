@@ -50,7 +50,7 @@ Se você for um usuário do iOS, poderá encontrar alguns problemas relacionados
 * **Mobile-status-bar** - Evite as informações da barra de status que cobrem o conteúdo do seu aplicativo.
 * **Tela de lançamento** - Cubra o aplicativo com uma imagem de lançamento para que as pessoas não tenham que ver as coisas carregando.
 
-Você já pode descobrir que o fastclick é uma base potencial para o nosso problema. Assim, vamos instalar os mesmos pacotes de experiência móvel nos fornece, com a exceção de fastclick:
+Você já pode descobrir que o <b>fastclick</b> é uma base potencial para o nosso problema. Assim, vamos instalar os mesmos pacotes de <b>mobile-experience</b> nos fornece, com a exceção de <b>fastclick</b>:
 
 > meteor add mobile-status-bar
 
